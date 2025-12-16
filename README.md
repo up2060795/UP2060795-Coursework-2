@@ -43,9 +43,7 @@ Fashion-MNIST was chosen because:
 
 ## Q1 Summary – Decision Tree and Random Forest
 
-Q1 explores classical classification models:
-- Decision Tree Classifier
-- Random Forest Classifier
+Q1 explores classical Random Forest Classifier model
 
 Steps include:
 - Data loading and normalisation
