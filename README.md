@@ -92,3 +92,16 @@ The Fashion-MNIST dataset used in this coursework is pre-cleaned and does not co
 Pixel values were normalised from the range 0–255 to 0–1 prior to training. This normalisation improves numerical stability, helps gradient-based optimisation, and ensures consistent model performance across Q1, Q2, and Q3.
 
 ----------------------------------------------------------------------------------------------------
+
+## Features and Preprocessing
+
+Each Fashion-MNIST image is represented by its raw pixel intensities.
+All 784 pixels (28×28 grayscale image) are used as input features.
+
+Pixel values are normalised to the range [0, 1] to improve numerical stability
+and ensure consistent feature scaling.
+
+No additional handcrafted features are created.
+This design choice allows for a fair comparison between traditional machine learning
+methods (Question 1) and neural network approaches (Questions 2 and 3),
+where feature learning is performed automatically by the model.
