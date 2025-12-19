@@ -3,10 +3,7 @@
 PROJECT OVERVIEW
 ----------------
 
-This project presents an end-to-end data science workflow using the Fashion-MNIST
-dataset. The aim is to compare traditional machine learning methods with neural
-network approaches and to explore how design choices in neural networks affect
-model performance.
+This project presents an end-to-end data science workflow using the Fashion-MNIST dataset. The aim is to compare traditional machine learning methods with neural network approaches and to explore how design choices in neural networks affect model performance.
 
 The project is structured around three questions:
 
@@ -53,7 +50,7 @@ Fashion-MNIST was chosen because:
 
 -----------------------------------------------------------------------------------------------------
 
-## Q1 Summary – Decision Tree and Random Forest
+## Q1 Summary – Traditional Machine Learning
 
 Q1 explores classical Random Forest Classifier model
 
@@ -83,9 +80,9 @@ Tanh is used as a classical activation function to demonstrate CNN learning beha
 
 --------------------------------------------------------------------------------------------------
 
-## Q3 – CNN Activation Function Investigation (ReLU)
+## Q3 – CNN Activation Function Investigation 
 
-In Q3, the CNN architecture from Q2 is reused, but the activation function is changed from Tanh to ReLU, Sigmoid and LeakyReLU. The aim of this section is to investigate how the choice of activation function affects learning speed and model performance.
+In Q3, the CNN architecture from Q2 is reused, but the activation function is changed to ReLU, Sigmoid and LeakyReLU. The aim of this section is to investigate how the choice of activation function affects learning speed and model performance.
 
 To ensure a fair comparison, all other aspects of the model remain unchanged:
 - Same dataset and preprocessing
@@ -96,9 +93,7 @@ To ensure a fair comparison, all other aspects of the model remain unchanged:
 Results show that:
 
 - Sigmoid suffers from vanishing gradients and fails to learn effectively
-
 - ReLU provides a strong baseline performance
-
 - LeakyReLU improves training stability and convergence
 
 This highlights the importance of activation function choice in CNNs.
@@ -136,7 +131,7 @@ All experiments were run using the following versions:
 python==3.9.13
 numpy==1.23.4
 pandas==1.5.1
-scikit-learn==<verified_version>
+scikit-learn==1.6.1
 matplotlib==3.6.2
 torch==1.13.0
 torchvision==0.14.0
